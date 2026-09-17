@@ -162,7 +162,7 @@ function initHeader() {
   `;
 
   document.getElementById("footer-text").textContent =
-    `© ${new Date().getFullYear()} ${CONFIG.nombre_tienda} · Hecho con amor`;
+    `© ${new Date().getFullYear()} ${CONFIG.nombre_tienda} · De Mi Clóset al Tuyo`;
 }
 
 // ── Renderizar tarjetas ──
