@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Closet</title>
+  <meta name="description" content="Piezas de ropa y zapatos usados en venta" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-brand">
+      <h1 id="brand-name"></h1>
+      <p id="brand-tagline"></p>
+    </div>
+    <div class="header-contacts" id="header-contacts"></div>
+  </header>
+
+  <nav class="filters">
+    <button class="filter-btn active" data-filter="todo">Todo</button>
+    <button class="filter-btn" data-filter="ropa">Ropa</button>
+    <button class="filter-btn" data-filter="zapatos">Zapatos</button>
+  </nav>
+
+  <main>
+    <p id="empty-state">No hay piezas disponibles por ahora.</p>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <footer>
+    <p id="footer-text"></p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <div class="lightbox-inner">
+      <button id="lb-close" class="lightbox-close">✕</button>
+      <button id="lb-prev"  class="lightbox-btn prev">‹</button>
+      <div id="lb-track" class="lightbox-track"></div>
+      <button id="lb-next"  class="lightbox-btn next">›</button>
+      <div id="lb-dots" class="lightbox-dots"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

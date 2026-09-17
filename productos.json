@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "nombre": "Enterizo H&M de cuadros blanco y negro",
+    "categoria": "ropa",
+    "descripcion": "Enterizo H&M de cuadros blanco y negro, con tirantes delgados, escote recto y short. Diseño elegante y versátil. Usado como nuevo.",
+    "marca": "H&M",
+    "talla": "M",
+    "precio": 35000,
+    "fotos": [
+      "fotos/IMG_0964.jpeg",
+      "fotos/IMG_0965.jpeg",
+      "fotos/IMG_0966.jpeg"
+    ],
+    "disponible": true,
+    "condicion": "como_nuevo"
+  },
+  {
+    "id": 2,
+    "nombre": "Falda Zara de tul rosa con lunares",
+    "categoria": "ropa",
+    "descripcion": "Falda Zara de tul rosa con lunares negros, manga larga y cuello redondo con detalle de terciopelo negro. Diseño ligero y elegante. Usada como nueva.",
+    "marca": "Zara",
+    "talla": "S",
+    "precio": 40000,
+    "fotos": [
+      "fotos/IMG_0987.jpeg",
+      "fotos/IMG_0991.jpeg",
+      "fotos/IMG_0992.jpeg"
+    ],
+    "disponible": true,
+    "condicion": "como_nuevo"
+  },
+  {
+    "id": 3,
+    "nombre": "Zapatos de vestir café",
+    "categoria": "zapatos",
+    "descripcion": "Cuero genuino, uso ocasional",
+    "talla": "42",
+    "precio": 400,
+    "fotos": ["fotos/zapatos-1.jpg", "fotos/zapatos-2.jpg", "fotos/zapatos-3.jpg"],
+    "disponible": true,
+    "condicion": "buen_estado"
+  },
+  {
+    "id": 4,
+    "nombre": "Sneakers blancos",
+    "categoria": "zapatos",
+    "descripcion": "Marca deportiva, poco uso",
+    "talla": "41",
+    "precio": 280,
+    "fotos": ["fotos/sneakers-1.jpg"],
+    "disponible": false,
+    "condicion": "buen_estado"
+  },
+  {
+    "id": 5,
+    "nombre": "Abrigo largo MNG x Manteco",
+    "categoria": "ropa",
+    "descripcion": "Corte clásico, solapas amplias, cierre de botones, bolsillos frontales y forro interior. Lana italiana Manteco. Color verde oliva / caqui oscuro. Con etiqueta original.",
+    "talla": "S",
+    "precio": 600000,
+    "fotos": ["fotos/IMG_0214.JPG", "fotos/IMG_0216.JPG", "fotos/IMG_0219.JPG"],
+    "disponible": true,
+    "condicion": "nuevo_con_etiqueta"
+  }
+]
